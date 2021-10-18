@@ -1,0 +1,29 @@
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 19px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+header, footer {
+  text-align: center;
+}
+
+h1 {
+  font-family: 'Aleo', serif;
+} 
+
+h2 {
+  font-family: 'Aleo', serif;
+  font-weight: 400
+}
+
+h1 > span {
+  display: block;
+  font-size: 0.8em;
+}
+
+.profile-pic {
+  border-radius: 50%;
+  height: 200px;
+}
