@@ -1,10 +1,17 @@
 body {
-  font: 400 16px/30px 'Quattrocento', serif;
+  font-size: 18px;
+  line-height: 32px;
+  font-family: 'Quattrocento', serif;
   margin: 0;
 }
 
 header, footer {
   text-align: center; 
+}
+
+header > p {
+  font-size: 1.4em;
+  line-height: 1.3em;
 }
 
 header {
@@ -13,7 +20,8 @@ header {
 }
 
 p, h1, h2, ul {
-  max-width: 800px;
+  
+  padding: 0 2em;
   margin-left: auto;
   margin-right: auto;
 }
@@ -36,6 +44,7 @@ h2 {
 h1 > span {
   display: block;
   font-size: 0.8em;
+  line-height: 1.5em;
 }
 
 .profile-pic {
@@ -45,4 +54,11 @@ h1 > span {
 
 .profile-pic-container {
   padding: 1em;
+}
+
+
+@media (min-width: 767px) {
+  p, h1, h2, ul {
+    max-width: 767px;
+  }
 }
