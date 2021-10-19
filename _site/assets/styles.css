@@ -1,21 +1,36 @@
 body {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 19px;
-  max-width: 800px;
-  margin: 0 auto;
+  font: 400 16px/30px 'Quattrocento', serif;
+  margin: 0;
 }
 
 header, footer {
-  text-align: center;
+  text-align: center; 
+}
+
+header {
+  background-color: teal;
+  overflow: hidden;
+}
+
+p, h1, h2, ul {
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+h1, h2 {
+  font-family: 'Oswald', sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
 }
 
 h1 {
-  font-family: 'Aleo', serif;
-} 
+  font-size: 2.3em;
+}
 
 h2 {
-  font-family: 'Aleo', serif;
-  font-weight: 400
+  font-size: 1.9em;
+  text-align: center;
 }
 
 h1 > span {
@@ -25,5 +40,9 @@ h1 > span {
 
 .profile-pic {
   border-radius: 50%;
-  height: 200px;
+  height: 10em;
+}
+
+.profile-pic-container {
+  padding: 1em;
 }
