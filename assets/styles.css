@@ -45,6 +45,18 @@ li > span {
   margin-left: -0.5em;
 }
 
+form {
+  width: 70%
+}
+
+p > input, p > textarea {
+  width: 100%;
+}
+
+textarea {
+  font-family: arial
+}
+
 .column {
   margin-left: auto;
   margin-right: auto;
