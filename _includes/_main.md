@@ -16,17 +16,17 @@ Before that I worked for eight years as a web editor for the Natural History Mus
 </ul>
 
 ## Contact me
-The first step is leaving your details here so that we can schedule your free consultation
+Please leave your details to schedule a free consultation
 
 <form name="contact" method="POST" data-netlify="true">
   <p>
-    <label>Your Name: <input type="text" name="name" /></label>   
+    <input placeholder="Name" type="text" name="name" />
   </p>
   <p>
-    <label>Your Email: <input type="email" name="email" /></label>
+    <input placeholder="Email" type="email" name="email" />
   </p>
   <p>
-    <label>Message: <textarea name="message"></textarea></label>
+    <textarea placeholder="Message" name="message"></textarea>
   </p>
   <p>
     <button type="submit">Send</button>
